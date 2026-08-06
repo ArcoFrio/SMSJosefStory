@@ -1,0 +1,2185 @@
+Scene: GameStart
+--------------------------------------------------
+- EventSystem [self:True, hierarchy:True]
+  * Transform
+  * EventSystem
+  * InputSystemUIInputModule
+- GameObject [self:True, hierarchy:True]
+  * Transform
+- //////////////////////////////////// [self:True, hierarchy:True]
+  * Transform
+- Start [self:True, hierarchy:True]
+  * Transform
+  * Trigger
+- Transition_ComputerStart [self:True, hierarchy:True]
+  * Transform
+  * TransitionAnimator
+  * DemoStartTransition
+  - Transition Root [self:True, hierarchy:True]
+    * RectTransform
+    * Canvas
+    * CanvasScaler
+    - Screen [self:True, hierarchy:True]
+      * RectTransform
+      * CanvasRenderer
+      * RawImage
+- Cutscene_Music [self:False, hierarchy:False]
+  * Transform
+  * AudioSource
+  * Trigger
+- SaveManager [self:True, hierarchy:True]
+  * Transform
+  * SaveManager
+- Main Camera (1) [self:True, hierarchy:True]
+  * Transform
+  * Camera
+  * AudioListener
+  * UniversalAdditionalCameraData
+  * PixelPerfectCamera
+- Maintheme [self:False, hierarchy:False]
+  * Transform
+  * AudioSource
+  * AudioReactiveVolumeWeight
+- 6_Effects [self:True, hierarchy:True]
+  * Transform
+  - Camera_Flash [self:True, hierarchy:True]
+    * Transform
+    * Trigger
+  - Effect_Canvas [self:True, hierarchy:True]
+    * RectTransform
+    * Canvas
+    * CanvasScaler
+    * GraphicRaycaster
+    - White [self:True, hierarchy:True]
+      * RectTransform
+      * CanvasRenderer
+      * Image
+      * CanvasGroup
+    - Black [self:True, hierarchy:True]
+      * RectTransform
+      * CanvasRenderer
+      * Image
+      * CanvasGroup
+  - FadeBlack [self:True, hierarchy:True]
+    * Transform
+    * Trigger
+    * Trigger
+- Light 2D (1) [self:False, hierarchy:False]
+  * Transform
+  * Light2D
+- Road_Car_Scene [self:False, hierarchy:False]
+  * Transform
+  - MMN_01 (4) [self:True, hierarchy:False]
+    * Transform
+    * SpriteRenderer
+  - MMN_01 [self:True, hierarchy:False]
+    * Transform
+    * SpriteRenderer
+  - MMN_01 (3) [self:True, hierarchy:False]
+    * Transform
+    * SpriteRenderer
+  - MMN_01 (2) [self:True, hierarchy:False]
+    * Transform
+    * SpriteRenderer
+  - MM_G_Volume [self:True, hierarchy:False]
+    * Transform
+    * Volume
+  - Car [self:True, hierarchy:False]
+    * Transform
+    * Trigger
+    - MMN_Car [self:True, hierarchy:False]
+      * Transform
+      * SpriteRenderer
+    - MMN_Car (3) [self:True, hierarchy:False]
+      * Transform
+      * SpriteRenderer
+    - MMN_Car (1) [self:True, hierarchy:False]
+      * Transform
+      * SpriteRenderer
+    - MMN_Car (2) [self:True, hierarchy:False]
+      * Transform
+      * SpriteRenderer
+  - Audio Source [self:True, hierarchy:False]
+    * Transform
+    * AudioSource
+    * Trigger
+- start [self:True, hierarchy:True]
+  * Transform
+  * Trigger
+- Part_One [self:True, hierarchy:True]
+  * Transform
+  - TheCityBackground [self:True, hierarchy:True]
+    * Transform
+    - Canvas [self:True, hierarchy:True]
+      * RectTransform
+      * Canvas
+      * CanvasScaler
+      * GraphicRaycaster
+      - Image [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Image (1) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        - Image (2) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+      - Image (3) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        - Image (2) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+      - Image (4) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        - Image (2) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+      - Image (5) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        - Image (2) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+      - Image (6) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        - Image (2) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+      - Image (7) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        - Image (2) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+      - Image (8) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        - Image (2) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+      - Image (9) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        - Image (2) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Mask
+          * ParallaxMouseEffect
+      - Image (2) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+    - MM_CityBackground_Volume [self:True, hierarchy:True]
+      * Transform
+      * Volume
+  - Canvas_MM [self:True, hierarchy:True]
+    * RectTransform
+    * Canvas
+    * CanvasScaler
+    * GraphicRaycaster
+    * Trigger
+    - MainMenu [self:True, hierarchy:True]
+      * RectTransform
+      * CanvasGroup
+      - UIParticle [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * ParticleSystem
+        * ParticleSystemRenderer
+        * UIParticleSystem
+      - UIParticle (1) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * ParticleSystem
+        * ParticleSystemRenderer
+        * UIParticleSystem
+      - Image [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Trigger
+        * CanvasGroup
+        * ParallaxMouseEffect
+        - Image (5) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Trigger
+          * CanvasGroup
+        - Image (8) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Trigger
+          * CanvasGroup
+        - Image (6) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Trigger
+          * CanvasGroup
+        - Image (7) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Trigger
+          * CanvasGroup
+        - Text (TMP) [self:False, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - Bar [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasGroup
+        - ButtonBackgrounds [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - ButtonBackgrounds [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - ButtonBackgrounds [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - ButtonBackgrounds [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Conditions
+        - Button (Legacy) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          * Trigger
+          * Trigger
+          - Text (TMP) [self:True, hierarchy:True]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * TextAnimator_TMP
+        - Button (Legacy) (1) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          * Trigger
+          * Trigger
+          - Text (TMP) [self:True, hierarchy:True]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * TextAnimator_TMP
+        - Button (Legacy) (5) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          * Trigger
+          * Trigger
+          - Text (TMP) [self:True, hierarchy:True]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * TextAnimator_TMP
+        - Button (Legacy) (4) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          * Trigger
+          * Trigger
+          - Text (TMP) [self:True, hierarchy:True]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * TextAnimator_TMP
+        - Button (Legacy) (3) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          * Shadow
+          * Outline
+          - Text (TMP) [self:False, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * TextAnimator_TMP
+        - Button (Legacy) (2) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          - Text (TMP) (1) [self:True, hierarchy:True]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * TextAnimator_TMP
+          - Image [self:True, hierarchy:True]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * Shadow
+            * Outline
+        - Button (Legacy) (6) [self:True, hierarchy:True]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          - Text (TMP) (1) [self:True, hierarchy:True]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * TextAnimator_TMP
+          - Image [self:True, hierarchy:True]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * Shadow
+            * Outline
+      - Text (TMP) [self:True, hierarchy:True]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - Quitagme [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Trigger
+        * Shadow
+        - Quitagme [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Shadow
+        - Quitagme (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Shadow
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+        - Text (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+        - Button (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          * Shadow
+          - Image [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+        - Slider [self:True, hierarchy:False]
+          * RectTransform
+          * SliderPropertyFloat
+          - Background [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+          - Fill Area [self:True, hierarchy:False]
+            * RectTransform
+            - Fill [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+          - Handle Slide Area [self:True, hierarchy:False]
+            * RectTransform
+            - Handle [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+        - Screenmodesettings [self:True, hierarchy:False]
+          * RectTransform
+          * HorizontalLayoutGroup
+          - Button (Legacy) (4) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * ButtonInstructions
+            * Conditions
+            - Text (Legacy) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Text
+              * Outline
+          - Dropdown [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * TMP_Dropdown
+            * TMPResolutionDropdown
+            - Label [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+            - Arrow [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+            - Template [self:False, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * ScrollRect
+              - Viewport [self:True, hierarchy:False]
+                * RectTransform
+                * Mask
+                * CanvasRenderer
+                * Image
+                - Content [self:True, hierarchy:False]
+                  * RectTransform
+                  - Item [self:True, hierarchy:False]
+                    * RectTransform
+                    * Toggle
+                    - Item Background [self:True, hierarchy:False]
+                      * RectTransform
+                      * CanvasRenderer
+                      * Image
+                    - Item Checkmark [self:True, hierarchy:False]
+                      * RectTransform
+                      * CanvasRenderer
+                      * Image
+                    - Item Label [self:True, hierarchy:False]
+                      * RectTransform
+                      * CanvasRenderer
+                      * TextMeshProUGUI
+              - Scrollbar [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Image
+                * Scrollbar
+                - Sliding Area [self:True, hierarchy:False]
+                  * RectTransform
+                  - Handle [self:True, hierarchy:False]
+                    * RectTransform
+                    * CanvasRenderer
+                    * Image
+        - Button (3) [self:False, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Shadow
+          * Outline
+          - Text (TMP) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+        - Button (4) [self:False, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Shadow
+          * Outline
+          - Text (TMP) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+      - Slots [self:False, hierarchy:False]
+        * RectTransform
+        * Trigger
+        - Button (Legacy) (5) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          - Text (Legacy) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Text
+            * Outline
+        - Button (Legacy) (6) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          - Text (Legacy) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Text
+            * Outline
+        - Button (Legacy) (7) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          * Trigger
+          - Text (Legacy) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Text
+            * Outline
+      - Text (TMP) [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * CanvasGroup
+      - DevCompletionBar [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        - DevBarProgressOld [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (3) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (4) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (5) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (6) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (7) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - SaveLoadSystem [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Shadow
+        * Trigger
+        - TextSaveManager [self:True, hierarchy:False]
+          * RectTransform
+          * TextInputManager
+        - Button [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ButtonInstructions
+          - Image [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+        - ButtonList [self:True, hierarchy:False]
+          * RectTransform
+          * VerticalLayoutGroup
+          - GameObject [self:True, hierarchy:False]
+            * RectTransform
+            * HorizontalLayoutGroup
+            * CanvasRenderer
+            * Image
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+            - InputField (Legacy) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * InputField
+              - Placeholder [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+              - Text (Legacy) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+            - UI_Save_Date [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Text
+            - Button (1) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * ButtonInstructions
+              - Text (TMP) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * TextMeshProUGUI
+          - GameObject (1) [self:True, hierarchy:False]
+            * RectTransform
+            * HorizontalLayoutGroup
+            * CanvasRenderer
+            * Image
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+            - InputField (Legacy) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * InputField
+              - Placeholder [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+              - Text (Legacy) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+            - UI_Save_Date [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Text
+            - Button (1) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * ButtonInstructions
+              - Text (TMP) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * TextMeshProUGUI
+          - GameObject (2) [self:True, hierarchy:False]
+            * RectTransform
+            * HorizontalLayoutGroup
+            * CanvasRenderer
+            * Image
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+            - InputField (Legacy) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * InputField
+              - Placeholder [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+              - Text (Legacy) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+            - UI_Save_Date [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Text
+            - Button (1) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * ButtonInstructions
+              - Text (TMP) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * TextMeshProUGUI
+          - GameObject (3) [self:True, hierarchy:False]
+            * RectTransform
+            * HorizontalLayoutGroup
+            * CanvasRenderer
+            * Image
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+            - InputField (Legacy) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * InputField
+              - Placeholder [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+              - Text (Legacy) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+            - UI_Save_Date [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Text
+            - Button (1) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * ButtonInstructions
+              - Text (TMP) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * TextMeshProUGUI
+          - GameObject (4) [self:True, hierarchy:False]
+            * RectTransform
+            * HorizontalLayoutGroup
+            * CanvasRenderer
+            * Image
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+            - InputField (Legacy) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * InputField
+              - Placeholder [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+              - Text (Legacy) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+            - UI_Save_Date [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Text
+            - Button (1) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * ButtonInstructions
+              - Text (TMP) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * TextMeshProUGUI
+          - GameObject (5) [self:True, hierarchy:False]
+            * RectTransform
+            * HorizontalLayoutGroup
+            * CanvasRenderer
+            * Image
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+            - InputField (Legacy) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * InputField
+              - Placeholder [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+              - Text (Legacy) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+            - UI_Save_Date [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Text
+            - Button (1) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * ButtonInstructions
+              - Text (TMP) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * TextMeshProUGUI
+          - GameObject (6) [self:True, hierarchy:False]
+            * RectTransform
+            * HorizontalLayoutGroup
+            * CanvasRenderer
+            * Image
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+            - InputField (Legacy) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * InputField
+              - Placeholder [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+              - Text (Legacy) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+            - UI_Save_Date [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Text
+            - Button (1) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * ButtonInstructions
+              - Text (TMP) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * TextMeshProUGUI
+          - GameObject (7) [self:True, hierarchy:False]
+            * RectTransform
+            * HorizontalLayoutGroup
+            * CanvasRenderer
+            * Image
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+            - InputField (Legacy) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * InputField
+              - Placeholder [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+              - Text (Legacy) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Text
+            - UI_Save_Date [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Text
+            - Button (1) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * Image
+              * ButtonInstructions
+              - Text (TMP) [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * TextMeshProUGUI
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+    - Step1 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - Text (TMP) (1) [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * Trigger
+      - GameObject [self:False, hierarchy:False]
+        * RectTransform
+        * Trigger
+      - Text (TMP) (3) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - InputField (TMP) (1) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * InputFieldTMPPropertyString
+        - Text Area [self:True, hierarchy:False]
+          * RectTransform
+          * RectMask2D
+          - Placeholder [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * LayoutElement
+          - Text [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+    - Step2 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - Text (TMP) (2) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - Text (TMP) (3) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - InputField (TMP) (1) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * InputFieldTMPPropertyString
+        - Text Area [self:True, hierarchy:False]
+          * RectTransform
+          * RectMask2D
+          - Placeholder [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * LayoutElement
+          - Text [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+      - InputField (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * InputFieldTMPPropertyString
+        - Text Area [self:True, hierarchy:False]
+          * RectTransform
+          * RectMask2D
+          - Placeholder [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * LayoutElement
+          - Text [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+      - Text (TMP) (1) [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * Trigger
+      - GameObject [self:False, hierarchy:False]
+        * RectTransform
+        * Trigger
+    - Step3 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - Text (TMP) (2) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - Text (TMP) (3) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - InputField (TMP) (1) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * InputFieldTMPPropertyString
+        - Text Area [self:True, hierarchy:False]
+          * RectTransform
+          * RectMask2D
+          - Placeholder [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * LayoutElement
+          - Text [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+      - InputField (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * InputFieldTMPPropertyString
+        - Text Area [self:True, hierarchy:False]
+          * RectTransform
+          * RectMask2D
+          - Placeholder [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * LayoutElement
+          - Text [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+      - Text (TMP) (1) [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * Trigger
+      - GameObject [self:False, hierarchy:False]
+        * RectTransform
+        * Trigger
+    - Step4 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - Text (TMP) (2) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+      - InputField (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * InputFieldTMPPropertyString
+        - Text Area [self:True, hierarchy:False]
+          * RectTransform
+          * RectMask2D
+          - Placeholder [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * LayoutElement
+          - Text [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+      - Text (TMP) (1) [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * Trigger
+      - GameObject [self:False, hierarchy:False]
+        * RectTransform
+        * Trigger
+        * Conditions
+    - Step5 [self:False, hierarchy:False]
+      * RectTransform
+      * CanvasGroup
+      * Trigger
+      * Conditions
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+    - Supportus [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Image (1) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - arenus [self:True, hierarchy:False]
+        * RectTransform
+        - Image [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Shadow
+          * Outline
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Text (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - arenus (1) [self:True, hierarchy:False]
+        * RectTransform
+        - Image [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Shadow
+          * Outline
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Text (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - Roundscape [self:True, hierarchy:False]
+        * RectTransform
+        - Image [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * Shadow
+          * Outline
+        - Text (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - Button [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - Button (1) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - Button (2) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - Button (3) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - Button (Legacy) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+    - Step_One_New [self:False, hierarchy:False]
+      * RectTransform
+  - 4_CG_Manager [self:True, hierarchy:True]
+    * Transform
+    * SpriteManager
+    - Step1 [self:False, hierarchy:False]
+      * Transform
+      * SpriteRenderer
+      - Core [self:True, hierarchy:False]
+        * Transform
+        * SpriteRenderer
+        - Art [self:True, hierarchy:False]
+          * Transform
+          * SpriteRenderer
+        - Background [self:True, hierarchy:False]
+          * Transform
+          * SpriteRenderer
+          * ShadowCaster2D
+        - EnableTrigger [self:True, hierarchy:False]
+          * Transform
+          * Trigger
+    - Step1 (1) [self:False, hierarchy:False]
+      * Transform
+      * SpriteRenderer
+      - Core [self:True, hierarchy:False]
+        * Transform
+        * SpriteRenderer
+        - Art [self:True, hierarchy:False]
+          * Transform
+          * SpriteRenderer
+        - Background [self:True, hierarchy:False]
+          * Transform
+          * SpriteRenderer
+          * ShadowCaster2D
+        - EnableTrigger [self:True, hierarchy:False]
+          * Transform
+          * Trigger
+    - Step1 (2) [self:False, hierarchy:False]
+      * Transform
+      * SpriteRenderer
+      - Core [self:True, hierarchy:False]
+        * Transform
+        * SpriteRenderer
+        - Art [self:True, hierarchy:False]
+          * Transform
+          * SpriteRenderer
+        - Background [self:True, hierarchy:False]
+          * Transform
+          * SpriteRenderer
+          * ShadowCaster2D
+        - EnableTrigger [self:True, hierarchy:False]
+          * Transform
+          * Trigger
+- OnlyOnce_LoadText [self:False, hierarchy:False]
+  * Transform
+  * Trigger
+- Audio_Sync_Volume [self:True, hierarchy:True]
+  * Transform
+  * Volume
+  * BeautifySettings
+- Core_Volume [self:True, hierarchy:True]
+  * Transform
+  * Volume
+  * BeautifySettings
+- Light 2D [self:True, hierarchy:True]
+  * Transform
+  * Light2D
+- NewIntro [self:True, hierarchy:True]
+  * Transform
+  - Canvas [self:True, hierarchy:True]
+    * RectTransform
+    * Canvas
+    * CanvasScaler
+    * GraphicRaycaster
+    - Cutscene_Background [self:True, hierarchy:True]
+      * RectTransform
+      * CanvasRenderer
+      * Image
+      * CanvasGroup
+    - Cutscene_1 [self:True, hierarchy:True]
+      * RectTransform
+      * CanvasGroup
+      - Bar_1 [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        * CanvasGroup
+        * Trigger
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+      - Bar_2 [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        * CanvasGroup
+        * Trigger
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+      - Bar_3 [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        * CanvasGroup
+        * Trigger
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+    - Cutscene_2 [self:True, hierarchy:True]
+      * RectTransform
+      * CanvasGroup
+      - Bar_1 [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        * CanvasGroup
+        * Trigger
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+      - Bar_2 [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        * CanvasGroup
+        * Trigger
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+      - Bar_3 [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        * CanvasGroup
+        * Trigger
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+    - Cutscene_3 [self:True, hierarchy:True]
+      * RectTransform
+      * CanvasGroup
+      - Bar_1 [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        * CanvasGroup
+        * Trigger
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * CanvasGroup
+      - Bar_2 [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        * CanvasGroup
+        * Trigger
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * CanvasGroup
+      - Bar_3 [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * Mask
+        * CanvasGroup
+        * Trigger
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * ParallaxMouseEffect
+        - Image (3) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * CanvasGroup
+    - N_Step_1 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - N_NextStep [self:False, hierarchy:False]
+        * RectTransform
+        * Trigger
+        * CanvasRenderer
+        * Image
+        * Trigger
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * TextAnimator_TMP
+        * TypewriterByCharacter
+    - N_Step_2 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - N_NextStep [self:False, hierarchy:False]
+        * RectTransform
+        * Trigger
+        * CanvasRenderer
+        * Image
+        * Trigger
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * TextAnimator_TMP
+        * TypewriterByCharacter
+    - N_Step_3 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - N_NextStep [self:False, hierarchy:False]
+        * RectTransform
+        * Trigger
+        * CanvasRenderer
+        * Image
+        * Trigger
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * TextAnimator_TMP
+        * TypewriterByCharacter
+    - N_Step_4 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - N_NextStep [self:False, hierarchy:False]
+        * RectTransform
+        * Trigger
+        * CanvasRenderer
+        * Image
+        * Trigger
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * TextAnimator_TMP
+        * TypewriterByCharacter
+    - N_Step_5 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - N_NextStep [self:False, hierarchy:False]
+        * RectTransform
+        * Trigger
+        * CanvasRenderer
+        * Image
+        * Trigger
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * TextAnimator_TMP
+        * TypewriterByCharacter
+    - N_Step_B_6 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * TextAnimator_TMP
+        * TypewriterByCharacter
+      - InputField (TMP) (1) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * InputFieldTMPPropertyString
+        - Text Area [self:True, hierarchy:False]
+          * RectTransform
+          * RectMask2D
+          - Placeholder [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+            * LayoutElement
+          - Text [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * TextMeshProUGUI
+      - Button [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+        * Shadow
+        * Trigger
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+    - N_Step_B_6_B [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+          * TextAnimator_TMP
+          * TypewriterByCharacter
+      - Button [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+        * Shadow
+        * Trigger
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+        - Text (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+          * TextAnimator_TMP
+          * TypewriterByCharacter
+      - Attributes [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * HorizontalLayoutGroup
+        - Image [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          - Image (1) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * ButtonInstructions
+            * Tooltip
+          - Active [self:False, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * Trigger
+          - tooltip [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * CanvasGroup
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+        - Image (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          - Image (1) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * ButtonInstructions
+            * Tooltip
+          - Active [self:False, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * Trigger
+          - tooltip [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * CanvasGroup
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+        - Image (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          - Image (1) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * ButtonInstructions
+            * Tooltip
+          - Active [self:False, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * Trigger
+          - tooltip [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * CanvasGroup
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+        - Image (3) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          - Image (1) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * ButtonInstructions
+            * Tooltip
+          - Active [self:False, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * Trigger
+          - tooltip [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * CanvasGroup
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+        - Image (4) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          - Image (1) [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * ButtonInstructions
+            * Tooltip
+          - Active [self:False, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * Trigger
+          - tooltip [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * CanvasGroup
+            - Text (TMP) [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+      - Reset_Attributes [self:True, hierarchy:False]
+        * RectTransform
+        * Actions
+    - N_Step_B_7 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Image (1) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * TextAnimator_TMP
+        * TypewriterByCharacter
+      - Button [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+        * Shadow
+        * Trigger
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - Line [self:True, hierarchy:False]
+        * RectTransform
+        * HorizontalLayoutGroup
+        - Text (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+          * TextAnimator_TMP
+          * TypewriterByWord
+        - InputField (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * InputFieldTMPPropertyString
+          - Text Area [self:True, hierarchy:False]
+            * RectTransform
+            * RectMask2D
+            - Placeholder [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+              * LayoutElement
+            - Text [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+        - Text (TMP) (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+          * TextAnimator_TMP
+          * TypewriterByWord
+        - InputField (TMP) (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * InputFieldTMPPropertyString
+          - Text Area [self:True, hierarchy:False]
+            * RectTransform
+            * RectMask2D
+            - Placeholder [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+              * LayoutElement
+            - Text [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+    - N_Step_B_8 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Image (1) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * TextAnimator_TMP
+        * TypewriterByCharacter
+      - Button [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+        * Shadow
+        * Trigger
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - Line [self:True, hierarchy:False]
+        * RectTransform
+        * HorizontalLayoutGroup
+        - Text (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+          * TextAnimator_TMP
+          * TypewriterByWord
+        - InputField (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * InputFieldTMPPropertyString
+          - Text Area [self:True, hierarchy:False]
+            * RectTransform
+            * RectMask2D
+            - Placeholder [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+              * LayoutElement
+            - Text [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+        - Text (TMP) (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+          * TextAnimator_TMP
+          * TypewriterByWord
+        - InputField (TMP) (2) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * InputFieldTMPPropertyString
+          - Text Area [self:True, hierarchy:False]
+            * RectTransform
+            * RectMask2D
+            - Placeholder [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+              * LayoutElement
+            - Text [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+    - N_Step_B_9 [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Image (1) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * TextAnimator_TMP
+        * TypewriterByCharacter
+      - Button [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+        * Shadow
+        * Trigger
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+      - Line [self:True, hierarchy:False]
+        * RectTransform
+        * HorizontalLayoutGroup
+        - Text (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+          * TextAnimator_TMP
+          * TypewriterByWord
+        - InputField (TMP) (1) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+          * InputFieldTMPPropertyString
+          - Text Area [self:True, hierarchy:False]
+            * RectTransform
+            * RectMask2D
+            - Placeholder [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+              * LayoutElement
+            - Text [self:True, hierarchy:False]
+              * RectTransform
+              * CanvasRenderer
+              * TextMeshProUGUI
+    - N_Step_B_Final [self:False, hierarchy:False]
+      * RectTransform
+      * Trigger
+      * CanvasGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+      - Text (TMP) [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+        * TextAnimator_TMP
+        * TypewriterByCharacter
+      - Button [self:False, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * ButtonInstructions
+        * Shadow
+        * Trigger
+        - Text (TMP) [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+    - BlackScreen [self:True, hierarchy:True]
+      * RectTransform
+      * CanvasRenderer
+      * Image
+      * CanvasGroup
+- NanoSave [self:False, hierarchy:False]
+  * RectTransform
+  * Canvas
+  * CanvasScaler
+  * GraphicRaycaster
+  * CanvasRenderer
+  * SaveSlotLoaderUI
+  * VerticalLayoutGroup
+  * Trigger
+  * Actions
+  * Trigger
+  * Trigger
+  - Content [self:True, hierarchy:False]
+    * RectTransform
+    * CanvasRenderer
+    * Image
+    * VerticalLayoutGroup
+    - Header [self:True, hierarchy:False]
+      * RectTransform
+      * HorizontalLayoutGroup
+      - Title [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * TextMeshProUGUI
+    - Divider (1) [self:True, hierarchy:False]
+      * RectTransform
+      * CanvasRenderer
+      * HorizontalLayoutGroup
+      - Image [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+    - Content [self:True, hierarchy:False]
+      * RectTransform
+      * HorizontalLayoutGroup
+      - List [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * VerticalLayoutGroup
+        - Viewport [self:True, hierarchy:False]
+          * RectTransform
+          * ScrollRect
+          * RectMask2D
+          - Content [self:True, hierarchy:False]
+            * RectTransform
+            * VerticalLayoutGroup
+            * ContentSizeFitter
+          - Scrollbar [self:True, hierarchy:False]
+            * RectTransform
+            * CanvasRenderer
+            * Image
+            * Scrollbar
+            - Sliding Area [self:True, hierarchy:False]
+              * RectTransform
+              - Handle [self:True, hierarchy:False]
+                * RectTransform
+                * CanvasRenderer
+                * Image
+    - Hint [self:True, hierarchy:False]
+      * RectTransform
+      * HorizontalLayoutGroup
+      - Left Click [self:True, hierarchy:False]
+        * RectTransform
+        * CanvasRenderer
+        * Image
+        * HorizontalLayoutGroup
+        * ContentSizeFitter
+        - Image [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * Image
+        - Select [self:True, hierarchy:False]
+          * RectTransform
+          * CanvasRenderer
+          * TextMeshProUGUI
+          * ContentSizeFitter
+  - Button [self:True, hierarchy:False]
+    * RectTransform
+    * CanvasRenderer
+    * Image
+    * ButtonInstructions
+    * LayoutElement
+    - Image [self:True, hierarchy:False]
+      * RectTransform
+      * CanvasRenderer
+      * Image
+  - blur volume [self:True, hierarchy:False]
+    * Transform
+    * Volume
